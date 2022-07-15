@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  text-align: center;
+  font-family: Finlandica;
+
+}
+a{
+  font-size: 1.75rem;
+  text-decoration: none;
+}
+nav{
+  background-color: #C8B8DB;
+  padding: 15px;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+nav a{
+  padding-left: 15px;
+  color: black;
+}
+
+header h1{
+  font-size: 5rem;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+header p, p{
+  font-size: 2rem;
+  margin: 0;
+}
+
+#welcome-section{
+  background-color: #70587C;
+  background-image: url(../Images/image-from-rawpixel-id-5916445-jpeg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#projects{
+  background-color: #F9F4F5;
+}
+.project-tile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 820px;
+
+}
+img{
+  margin: 10px;
+  max-width: 250px;
+
+}
+#contact{
+  background-color: #502F4C;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0;
+  text-align: center;
+  color:#C8B8DB;
+}
+h2{
+  font-size: 40px;
+}
+.social-icons{
+  color: #fff;
+  font-size: 20px;
+  padding-left: 2rem;
+  margin: 0;
+  flex-wrap: wrap;
+
+}
+
+footer{
+  background-color: #C8B8DB;
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+
+}
