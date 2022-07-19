@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Finlandica', sans-serif;
+  color: #000;
+
+}
+a{
+  font-size: 1.75rem;
+  text-decoration: none;
+}
+nav{
+  background-color: #E7F6F2;
+  padding: 15px;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+nav a{
+  padding-left: 15px;
+  color: black;
+}
+
+header h1{
+  font-size: 5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+header p, p{
+  font-size: 2rem;
+  font-style: italic;
+  margin: 0;
+}
+
+#welcome-section{
+  background-color: #395B64;
+  background-image: url(../Images/image-from-rawpixel-id-5916445-jpeg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#projects{
+  background-color: #A5C9CA;
+}
+.project-tile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 820px;
+
+}
+
+.image1{
+  height: 450px;
+  max-width: 100%;
+  padding-left: 20px;
+}
+
+#profile-link{
+  color: #E7F6F2;
+}
+#profile-link:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#contact{
+  background-color: #2C3333;
+  color: #fff;
+  padding-top: 5px;
+  margin: 0;
+  text-align: center;
+
+}
+h2{
+  font-size: 32px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+.social-icons{
+  color: #fff;
+  font-size: 35px;
+  padding-left: 2rem;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.social-icons:hover{
+  color: #E7F6F2;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#contact p{
+  padding-top: 15px;
+  font-size: 18px;
+}
+
+footer{
+  background-color: #E7F6F2;
+  color: #000;
+  padding: 5px;
+  text-align: center;
+  margin: 0;
+
+}
+
+footer p{
+  font-size: 14px;
+}
